@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Protección y tratamiento de datos personales',
+    Description:
+      'Este componente formativo desarrolla los aspectos fundamentales de la protección de datos personales en Colombia. Aborda los principios, derechos, deberes y mecanismos de control establecidos en la Ley 1581 de 2012, así como su aplicación en las organizaciones para garantizar el tratamiento adecuado de la información y prevenir riesgos legales.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.svg',
       },
     ],
   },
@@ -28,30 +33,169 @@ export default {
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
+
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de la protección de datos personales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de protección de datos personales  ',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Evolución de la protección de datos ',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Importancia organizacional de la protección de datos ',
+            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Ley 1581 de 2012s',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: ' Generalidades de la Ley 1581 ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Ámbito de aplicación ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Definiciones fundamentales ',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Principios rectores para el tratamiento de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Principios relacionados con la legalidad ',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Principios relacionados con la calidad de la información ',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Principios relacionados con la protección de la información ',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Categorías especiales de datos personales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Clasificación de los datos personales ',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Datos sensibles ',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Datos de niños, niñas y adolescentes',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Derechos y condiciones de legalidad para el tratamiento de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Derechos de los titulares ',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Autorización para el tratamiento de datos',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Condiciones de legalidad ',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Responsables y encargados del tratamiento',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Responsable del tratamiento ',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Encargado del tratamiento ',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Gestión organizacional del tratamiento de datos',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Vigilancia, control y sanciones',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Autoridades de control',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Régimen sancionatorio',
+            hash: 't_7_2',
+          },
+          {
+            numero: '7.3',
+            titulo: 'Gestión del riesgo legal ',
+            hash: 't_7_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -112,7 +256,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -126,9 +271,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Eliana Audrey Manchola Pérez ',
+          cargo: 'Experto temático ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya ',
+          cargo: 'Evaluadora instruccional ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
       ],
     },
@@ -136,20 +288,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Fredy Fabian Ortiz Segura',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Henry Alvarez Astudillo',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta ',
+          cargo: 'Intérprete lenguaje de señas  ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura ',
+          cargo: 'Intérprete lenguaje de señas ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania ',
+          cargo: 'Animador y productor audiovisual ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y productor audiovisual ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo Lopez ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos ',
+          cargo: 'Locución ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -159,13 +341,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández ',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez ',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa ',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
