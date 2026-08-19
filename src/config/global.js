@@ -240,14 +240,81 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acceso restringido',
+      significado:
+        'Principio que establece que los datos personales solo pueden ser consultados por personas autorizadas y para las finalidades permitidas.',
+    },
+    {
+      termino: 'Base de datos',
+      significado:
+        'Conjunto organizado de datos personales que es objeto de tratamiento.',
+    },
+    {
+      termino: 'Confidencialidad',
+      significado:
+        'Obligación de proteger la información y evitar que sea conocida o utilizada por personas no autorizadas.',
+    },
+    {
+      termino: 'Dato personal',
+      significado:
+        'Información vinculada o asociada a una persona natural identificada o identificable.',
+    },
+    {
+      termino: 'Finalidad',
+      significado:
+        'Propósito específico, legítimo e informado para el cual se recopilan y utilizan los datos personales.',
+    },
+    {
+      termino: 'Habeas data',
+      significado:
+        'Derecho fundamental que permite conocer, actualizar, rectificar y controlar la información personal que reposa en bases de datos.',
+    },
+    {
+      termino: 'Ley 1581 de 2012',
+      significado:
+        'Norma colombiana que establece el régimen general de protección de datos personales y regula su tratamiento.',
+    },
+    {
+      termino: 'Protección de datos personales',
+      significado:
+        'Conjunto de principios, normas, procedimientos y medidas orientados a garantizar un tratamiento legal, seguro y responsable de la información personal.',
+    },
+    {
+      termino: 'Titular',
+      significado:
+        'Persona natural a quien pertenecen los datos personales objeto de tratamiento.',
+    },
+    {
+      termino: 'Veracidad',
+      significado:
+        'Principio que exige que los datos personales sean exactos, completos, verificables y actualizados.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Congreso de la República de Colombia. (2012). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Función Pública.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
+    },
+    {
+      referencia:
+        'Constitución Política de Colombia. (1991). Constitución Política de Colombia. Artículo 15. Constitución Colombia.',
+      link: 'https://www.constitucioncolombia.com/titulo-2/capitulo-1/articulo-15',
+    },
+    {
+      referencia:
+        'RISKS International. (2024, 25 de julio). Protección de datos personales en Colombia: Derechos, clasificación y normativas.',
+      link: 'https://www.risksint.com/proteccion-de-datos/proteccion-de-datos-personales-en-colombia-derechos-clasificacion-y-normativas/',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2023). Protección de datos personales.',
+      link: 'https://www.sic.gov.co/proteccion-de-datos-personales',
+    },
+    {
+      referencia:
+        'Universidad Nacional Abierta y a Distancia. (2025, 27 de enero). Lo que debes saber sobre el tratamiento y protección de datos personales. Noticias UNAD.',
+      link: 'https://noticias.unad.edu.co/index.php/noticias-unad/lo-que-debes-saber-sobre-el-tratamiento-y-proteccion-de-datos-personales?filter_tag%5B0%5D=208',
     },
   ],
   creditos: [

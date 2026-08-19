@@ -22,7 +22,7 @@
       //- Inicio Tema7.3
       .row
         #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 7.3 XXXXXXXXXXXXXXXXXXXX
+          h2 7.3 Gestión del riesgo legal 
 </template>
 
 <script>
